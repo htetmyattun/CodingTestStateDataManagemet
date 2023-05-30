@@ -29,6 +29,8 @@
 		31272AFE2A25CC4A00D47DF2 /* FormModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31272AFD2A25CC4A00D47DF2 /* FormModule.swift */; };
 		31272B032A25DCDF00D47DF2 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31272B022A25DCDF00D47DF2 /* FormViewModel.swift */; };
 		31272B052A25DD1200D47DF2 /* FormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31272B042A25DD1200D47DF2 /* FormData.swift */; };
+		31272B602A2678E000D47DF2 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31272B5F2A2678E000D47DF2 /* UIViewController.swift */; };
+		31272B632A267D9700D47DF2 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 31272B622A267D9700D47DF2 /* CryptoSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,7 @@
 		31272AFD2A25CC4A00D47DF2 /* FormModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModule.swift; sourceTree = "<group>"; };
 		31272B022A25DCDF00D47DF2 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
 		31272B042A25DD1200D47DF2 /* FormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormData.swift; sourceTree = "<group>"; };
+		31272B5F2A2678E000D47DF2 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31272B632A267D9700D47DF2 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +92,7 @@
 		31272AA92A2599C400D47DF2 /* StateDataManagemet */ = {
 			isa = PBXGroup;
 			children = (
+				31272B5E2A2678CE00D47DF2 /* Extension */,
 				31272AF82A25C9F300D47DF2 /* Modules */,
 				31272AD52A259F7400D47DF2 /* Fonts */,
 				31272AC02A259DDB00D47DF2 /* ViewCotrollers */,
@@ -155,6 +160,14 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
+		31272B5E2A2678CE00D47DF2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				31272B5F2A2678E000D47DF2 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,6 +184,9 @@
 			dependencies = (
 			);
 			name = StateDataManagemet;
+			packageProductDependencies = (
+				31272B622A267D9700D47DF2 /* CryptoSwift */,
+			);
 			productName = StateDataManagemet;
 			productReference = 31272AA72A2599C400D47DF2 /* StateDataManagemet.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +215,9 @@
 				Base,
 			);
 			mainGroup = 31272A9E2A2599C400D47DF2;
+			packageReferences = (
+				31272B612A267D9700D47DF2 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 31272AA82A2599C400D47DF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,6 +257,7 @@
 				31272AAF2A2599C400D47DF2 /* ViewController.swift in Sources */,
 				31272AAB2A2599C400D47DF2 /* AppDelegate.swift in Sources */,
 				31272AFA2A25CA0900D47DF2 /* WelcomeModule.swift in Sources */,
+				31272B602A2678E000D47DF2 /* UIViewController.swift in Sources */,
 				31272B052A25DD1200D47DF2 /* FormData.swift in Sources */,
 				31272B032A25DCDF00D47DF2 /* FormViewModel.swift in Sources */,
 				31272AFC2A25CB3B00D47DF2 /* WelcomeViewModel.swift in Sources */,
@@ -466,6 +486,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31272B612A267D9700D47DF2 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31272B622A267D9700D47DF2 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31272B612A267D9700D47DF2 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 31272A9F2A2599C400D47DF2 /* Project object */;
 }

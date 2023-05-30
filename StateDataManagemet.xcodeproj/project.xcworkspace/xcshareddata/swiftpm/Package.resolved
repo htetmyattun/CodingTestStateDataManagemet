@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7299d8bd5d405241b12c9bb66dc4fee35e7419be"
+      }
+    }
+  ],
+  "version" : 2
+}
