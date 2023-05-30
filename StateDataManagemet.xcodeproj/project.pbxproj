@@ -13,6 +13,16 @@
 		31272AB22A2599C400D47DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31272AB02A2599C400D47DF2 /* Main.storyboard */; };
 		31272AB42A2599C600D47DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31272AB32A2599C600D47DF2 /* Assets.xcassets */; };
 		31272AB72A2599C600D47DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31272AB52A2599C600D47DF2 /* LaunchScreen.storyboard */; };
+		31272AC22A259E0000D47DF2 /* WelcomeViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31272AC12A259E0000D47DF2 /* WelcomeViewCotroller.swift */; };
+		31272ACC2A259F6B00D47DF2 /* Chivo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31272AC32A259F6A00D47DF2 /* Chivo-BoldItalic.ttf */; };
+		31272ACD2A259F6B00D47DF2 /* Chivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31272AC42A259F6B00D47DF2 /* Chivo-Bold.ttf */; };
+		31272ACE2A259F6B00D47DF2 /* Chivo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31272AC52A259F6B00D47DF2 /* Chivo-Black.ttf */; };
+		31272ACF2A259F6B00D47DF2 /* Chivo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31272AC62A259F6B00D47DF2 /* Chivo-Italic.ttf */; };
+		31272AD02A259F6B00D47DF2 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31272AC72A259F6B00D47DF2 /* OFL.txt */; };
+		31272AD12A259F6B00D47DF2 /* Chivo-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31272AC82A259F6B00D47DF2 /* Chivo-LightItalic.ttf */; };
+		31272AD22A259F6B00D47DF2 /* Chivo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31272AC92A259F6B00D47DF2 /* Chivo-Light.ttf */; };
+		31272AD32A259F6B00D47DF2 /* Chivo-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31272ACA2A259F6B00D47DF2 /* Chivo-BlackItalic.ttf */; };
+		31272AD42A259F6B00D47DF2 /* Chivo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31272ACB2A259F6B00D47DF2 /* Chivo-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		31272AB32A2599C600D47DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31272AB62A2599C600D47DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31272AB82A2599C600D47DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31272AC12A259E0000D47DF2 /* WelcomeViewCotroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewCotroller.swift; sourceTree = "<group>"; };
+		31272AC32A259F6A00D47DF2 /* Chivo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		31272AC42A259F6B00D47DF2 /* Chivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Bold.ttf"; sourceTree = "<group>"; };
+		31272AC52A259F6B00D47DF2 /* Chivo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Black.ttf"; sourceTree = "<group>"; };
+		31272AC62A259F6B00D47DF2 /* Chivo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Italic.ttf"; sourceTree = "<group>"; };
+		31272AC72A259F6B00D47DF2 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		31272AC82A259F6B00D47DF2 /* Chivo-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-LightItalic.ttf"; sourceTree = "<group>"; };
+		31272AC92A259F6B00D47DF2 /* Chivo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Light.ttf"; sourceTree = "<group>"; };
+		31272ACA2A259F6B00D47DF2 /* Chivo-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-BlackItalic.ttf"; sourceTree = "<group>"; };
+		31272ACB2A259F6B00D47DF2 /* Chivo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,10 @@
 		31272AA92A2599C400D47DF2 /* StateDataManagemet */ = {
 			isa = PBXGroup;
 			children = (
+				31272AD52A259F7400D47DF2 /* Fonts */,
+				31272AC02A259DDB00D47DF2 /* ViewCotrollers */,
+				31272ABF2A259DCE00D47DF2 /* ViewModel */,
+				31272ABE2A259DB800D47DF2 /* Models */,
 				31272AAA2A2599C400D47DF2 /* AppDelegate.swift */,
 				31272AAC2A2599C400D47DF2 /* SceneDelegate.swift */,
 				31272AAE2A2599C400D47DF2 /* ViewController.swift */,
@@ -65,6 +89,44 @@
 				31272AB82A2599C600D47DF2 /* Info.plist */,
 			);
 			path = StateDataManagemet;
+			sourceTree = "<group>";
+		};
+		31272ABE2A259DB800D47DF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31272ABF2A259DCE00D47DF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31272AC02A259DDB00D47DF2 /* ViewCotrollers */ = {
+			isa = PBXGroup;
+			children = (
+				31272AC12A259E0000D47DF2 /* WelcomeViewCotroller.swift */,
+			);
+			path = ViewCotrollers;
+			sourceTree = "<group>";
+		};
+		31272AD52A259F7400D47DF2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				31272AC52A259F6B00D47DF2 /* Chivo-Black.ttf */,
+				31272ACA2A259F6B00D47DF2 /* Chivo-BlackItalic.ttf */,
+				31272AC42A259F6B00D47DF2 /* Chivo-Bold.ttf */,
+				31272AC32A259F6A00D47DF2 /* Chivo-BoldItalic.ttf */,
+				31272AC62A259F6B00D47DF2 /* Chivo-Italic.ttf */,
+				31272AC92A259F6B00D47DF2 /* Chivo-Light.ttf */,
+				31272AC82A259F6B00D47DF2 /* Chivo-LightItalic.ttf */,
+				31272ACB2A259F6B00D47DF2 /* Chivo-Regular.ttf */,
+				31272AC72A259F6B00D47DF2 /* OFL.txt */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +187,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31272AD12A259F6B00D47DF2 /* Chivo-LightItalic.ttf in Resources */,
 				31272AB72A2599C600D47DF2 /* LaunchScreen.storyboard in Resources */,
+				31272ACD2A259F6B00D47DF2 /* Chivo-Bold.ttf in Resources */,
+				31272ACC2A259F6B00D47DF2 /* Chivo-BoldItalic.ttf in Resources */,
+				31272AD32A259F6B00D47DF2 /* Chivo-BlackItalic.ttf in Resources */,
+				31272AD42A259F6B00D47DF2 /* Chivo-Regular.ttf in Resources */,
 				31272AB42A2599C600D47DF2 /* Assets.xcassets in Resources */,
+				31272AD22A259F6B00D47DF2 /* Chivo-Light.ttf in Resources */,
+				31272ACE2A259F6B00D47DF2 /* Chivo-Black.ttf in Resources */,
+				31272ACF2A259F6B00D47DF2 /* Chivo-Italic.ttf in Resources */,
+				31272AD02A259F6B00D47DF2 /* OFL.txt in Resources */,
 				31272AB22A2599C400D47DF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +211,7 @@
 			files = (
 				31272AAF2A2599C400D47DF2 /* ViewController.swift in Sources */,
 				31272AAB2A2599C400D47DF2 /* AppDelegate.swift in Sources */,
+				31272AC22A259E0000D47DF2 /* WelcomeViewCotroller.swift in Sources */,
 				31272AAD2A2599C400D47DF2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +362,7 @@
 				DEVELOPMENT_TEAM = ULMJ729MS3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StateDataManagemet/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +391,7 @@
 				DEVELOPMENT_TEAM = ULMJ729MS3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StateDataManagemet/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
