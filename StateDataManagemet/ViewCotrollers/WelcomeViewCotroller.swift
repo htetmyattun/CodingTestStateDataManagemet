@@ -13,10 +13,11 @@ class WelcomeViewController: UIViewController {
     @IBOutlet weak var btnEmail: UIButton!
     @IBOutlet weak var btnCreateNewAccount: UIButton!
     private var gradientLayer: CAGradientLayer?
+    var viewModel = WelcomeViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        viewModel.viewCotroller = self
         prepareUI()
     }
     
@@ -33,10 +34,16 @@ class WelcomeViewController: UIViewController {
         gradientLayer?.locations = [0.0, 1.0]
         gradientLayer?.startPoint = CGPoint(x: 0.0, y: 0.5)
         gradientLayer?.endPoint = CGPoint(x: 1.0, y: 0.5)
-        gradientLayer?.frame = CGRect(x: 0, y: 0, width: btnCreateNewAccount.bounds.width + 20.0, height: btnCreateNewAccount.bounds.height)
+        gradientLayer?.frame = CGRect(x: 0, y: 0, width: btnCreateNewAccount.bounds.width, height: btnCreateNewAccount.bounds.height)
         gradientLayer?.cornerRadius = 10
                 
-        // Insert the gradient layer below any other layers
         btnCreateNewAccount.layer.insertSublayer(gradientLayer!, at: 0)
+        
+        btnFacebook.setImage(UIImage(named: "facebook"), for: .normal)
+        btnFacebook.semanticContentAttribute = .forceRightToLeft
+    }
+    
+    @IBAction func createNewAccount(_ sender: UIButton) {
+        viewModel.goToFormView()
     }
 }
